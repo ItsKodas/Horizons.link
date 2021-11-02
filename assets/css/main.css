@@ -1,0 +1,21 @@
+body {
+    color: white;
+    background: #1B1B20;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background: #282831;
+    font-size: 15pt;
+    display: flex;
+}
+
+.navbar div {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.navbar div:hover {
+    background: #3c3c4b;
+}
