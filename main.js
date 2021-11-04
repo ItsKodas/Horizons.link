@@ -28,8 +28,8 @@ app.on('ready', () => {
 
 const express = require('express')
 const exp = express()
-exp.listen(3000, () => {
-    console.log('Server started on port 3000')
+exp.listen(5000, () => {
+    console.log('Server started on port 5000')
     setTimeout(() => {process.Window.loadURL('http://localhost:3000')}, 3000)
 })
 exp.set('view engine', 'ejs')
